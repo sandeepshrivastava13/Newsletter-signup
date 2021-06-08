@@ -71,7 +71,7 @@ app.post("/failure",function(req,res){
 
 
 
-app.listen(3000, function()
+app.listen(process.env.PORT || 3000, function()
 {
   console.log("Server is running om Port 3000");
 })
@@ -79,3 +79,4 @@ app.listen(3000, function()
 
 //950e385a49388ab972dd0fde4a011c94-us6
 //12f8776e29
+//https://infinite-garden-69445.herokuapp.com/
